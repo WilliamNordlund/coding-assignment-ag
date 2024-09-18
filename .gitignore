@@ -1,0 +1,35 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.env/
+
+# macOS system files
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.eggs/
+*.egg
+
+# Logs
+*.log
+
+# IDEs / editors settings (optional)
+.vscode/
+.idea/
+
+# Others
+.coverage
+.mypy_cache/
+.pytest_cache/
+newenv/
