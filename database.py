@@ -101,7 +101,3 @@ class Database:
         else:
             print("Log entry is invalid but storing it for tracking purposes.")
             Database.logs.append({"invalid_log": log_entry})
-
-        print(Database.knownClients)
-        print(Database.knownUsers)
-        print(Database.knownIps)
